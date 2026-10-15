@@ -1,5 +1,6 @@
-body {
+body{
     margin: 0;
+    background-color: #e2d5cc ;
 }
 .navbar
 {
@@ -79,4 +80,22 @@ body {
 {
   font-size: 18px;
   
+}
+
+.btn
+{
+    font-size:23px;
+    margin-top : 20px ;
+    color:#e2d5cc;
+    background-color:rgb(200, 122, 54);
+    text-decoration :none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    display: inline-block;
+}
+.btn:hover
+{
+    background-color:rgb(142, 91, 47);
+    transition : 0.3s;
+    transform: translateY(-4px);
 }
