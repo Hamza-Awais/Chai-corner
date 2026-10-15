@@ -1,10 +1,10 @@
 body{
     margin: 0;
-    background-color: #e2d5cc ;
+    background-color:#fff6e9 ;
 }
 .navbar
 {
-    background-color : #e2d5cc;
+    background-color :#fff6e9;
     display: flex;
     align-items: center;
 }
