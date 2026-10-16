@@ -15,6 +15,7 @@ header
     background-color :#fff6e9;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .navbar .logo
 {
@@ -109,23 +110,32 @@ header
 
 .content
 {
-    padding : 70px 100px;
+    padding : 70px 5%;
     align-items: center;
     display:flex;
+    flex-wrap: wrap;
+    gap: 60px;
 }
 .content-text
 {
     font-size: 20px;
-    margin-right: 200px;
+    flex: 1 1 500px;
 }
 .content-image img
 {
     border-radius: 20px;
+    width: 550px;
+    max-width: 100%;
+    height: auto;
 }
-
+.content-image
+{
+    flex: 0 1 550px;
+}
 .explore-sec
 {
     display:flex;
+    flex-wrap: wrap;
 }
 .explore-text
 {
@@ -136,7 +146,9 @@ header
 }
 .explore-link
 {
-    margin-left: 780px;
+    margin-left: auto;
+    margin-right: 100px;
+    padding-top: 100px; 
     padding-top: 100px; 
 }    
 .explore-link a
@@ -146,12 +158,13 @@ header
     text-decoration: none;
 }    
 
-
 .cards
 {
-    padding-left: 80px;
+    padding: 0 5%;
     display:flex;
-    gap:70px;
+    flex-wrap: wrap;
+    gap:40px;
+    justify-content: center;
 }
 
 .c1
@@ -164,7 +177,7 @@ header
     padding-top:15px;
     padding-left:25px;
     display:flex;
-    gap :100px;
+    gap :40px;
     background-color:white;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -198,7 +211,7 @@ header
     padding-top:15px;
     padding-left:25px;
     display:flex;
-    gap :100px;
+    gap :40px;
     background-color:white;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -234,7 +247,7 @@ header
     padding-top:15px;
     padding-left:25px;
     display:flex;
-    gap :100px;
+    gap :40px;
     background-color:white;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -297,7 +310,7 @@ footer
 }
 #address
 {
-    margin-left: 800px;
+    margin-left: auto;
     color :aliceblue;
 }
 #address h3
@@ -325,4 +338,21 @@ footer
 .footer-bottom p { 
     font-size: 14px;
     color: #d9b99b;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+.c1, .c2, .c3
+{
+    flex: 0 0 auto;
+    width: 340px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.c1-pic img, .c2-pic img, .c3-pic img
+{
+    width: 100%;
+    height: auto;
 }
