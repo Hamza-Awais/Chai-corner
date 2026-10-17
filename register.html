@@ -29,37 +29,69 @@
 
     <section class="register-section">
         <div class="register-box">
-            <div class="r-heading">   
+            <form action="#" method="post">
+            <div class="r-heading">
                 <h1>Create your account</h1>
                 <p>Save favourites and receive members-only chai offers.</p>
             </div>
             <div class="userinput">
-                <div> <h3>Full name</h3></div>
-                <div> <h3>Email</h3></div>
-                <div> <h3>Password</h3></div>
-                <div> <h3>Confirm Password</h3></div>
-                <div> <h3>Phone</h3></div>
-                <div> <h3>City</h3></div>
+                <div class="field"> 
+                    <label for="fullname">Full name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="name" required>
+                </div>
+                <div  class="field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="abc@gmail.com" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="At least 8 characters" minlength="8" required>
+                </div>
+                <div> 
+                    <label for="confirm">Confirm Password</label>
+                    <input type="password" id="confirm" name="confirm" placeholder="re-enter your password" required>
+                </div>
+                <div> 
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
+                </div>
+                <div class="field">
+                    <label for="city">City</label>
+                    <select id="city" name="city" required>
+                        <option value="" disabled selected>Select your city</option>
+                        <option value="lahore">Lahore</option>
+                        <option value="karachi">Karachi</option>
+                        <option value="islamabad">Islamabad</option>
+                        <option value="peshawar">Peshawar</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
             </div >
             <div class="userinput2">
                 <div>
                     <div><h3>Gender</h3></div>
                     <div class="gopt">
-                        <div><p>Female</p></div>
-                        <div><p>Male</p></div>
-                        <div><p>Prefer not to say</p></div>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                        <label><input type="radio" name="gender" value="male"> Male</label>
+                        <label><input type="radio" name="gender" value="none"> Prefer not to say</label>
                     </div>
                 </div>
                 <div>
                     <div><h3>Favorite Chai</h3></div>
                     <div class="gopt">
-                        <p>Masala</p>
-                        <p>Ginger</p>
-                        <p>Cardamom</p>
+                        <label><input type="checkbox" name="chai" value="masala"> Masala</label>
+                        <label><input type="checkbox" name="chai" value="ginger"> Ginger</label>
+                        <label><input type="checkbox" name="chai" value="cardamom"> Cardamom</label>
                     </div>
                 </div>
             </div>
+            <div class="terms">
+                <label><input type="checkbox" name="terms" required> I agree to the terms and privacy policy.</label>
+            </div>
+            <button type="submit" class="submit-btn">Create account</button>
+            </form>
         </div>
+    
     </section>
     <footer>
         <div class="footer-content">
