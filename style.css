@@ -483,3 +483,62 @@ img
     background-color: #8e5b2f;
     color: #fff;
 }
+
+
+#registerhero
+{
+    background-color:#4B2E1E;
+    padding:40px;
+    text-align: center;
+}
+#registerhero p{
+    color :#C8863A;
+    font-family: sans-serif;
+}
+#registerhero h1{
+    color :white;
+     font-size: 40px;
+}
+#registerhero span
+{
+    color:#F0E2CC;
+}
+
+.register-section
+{
+    margin-top:65px; 
+}
+.register-box
+{
+    border-radius: 15px;
+    background-color:white;
+    margin : 0 20%;
+    flex-wrap: wrap;
+}
+
+.r-heading
+{
+    font-family:'Times New Roman', Times, serif;
+    color:#4B2E1E;
+    padding: 3% 5%;
+}
+.userinput
+{
+    padding: 0 5%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:40px;
+}
+.userinput2
+{
+    padding: 0 5%;
+}
+.gopt 
+{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap :5px; 
+}
+.gopt p{
+    width:50%;
+}
