@@ -1,0 +1,95 @@
+.offer-card {
+  background-color: #F0E2CC;
+  padding: 20px;
+  border-radius: 10px;
+  height: 100%;
+  border: 1px solid #d9b99b;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.offer-card {
+  transition: 0.3s;
+}
+.offer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.offer-card {
+  padding: 36px;
+}
+
+.offer-num {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: #4B2E1E;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer-card h3 {
+  color: #4B2E1E;
+  font-size: 28px;
+  margin: 30px 0 10px;
+}
+
+.offer-card p {
+  color: #6b5444;
+  line-height: 1.7;
+  margin: 0;
+}
+
+
+.price-tag {
+  color: #C8863A;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 0 0 8px;
+}
+
+.price-title {
+  color: #4B2E1E;
+  font-size: 44px;
+  margin: 0 0 30px;
+}
+
+.price-wrap {
+  border-radius: 18px;
+  overflow-x: auto;
+  background-color: white;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.price-table th {
+  background-color: #4B2E1E;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  padding: 22px 24px;
+}
+
+.price-table td {
+  padding: 20px 24px;
+  color: #3a2a20;
+}
+
+.price-table tbody tr:nth-child(even) {
+  background-color: #f9f0e4;
+}
+
+.price-table td.price {
+  font-weight: 700;
+  color: #4B2E1E;
+}
